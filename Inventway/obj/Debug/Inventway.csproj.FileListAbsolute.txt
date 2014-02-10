@@ -1,0 +1,93 @@
+E:\Mobility\Projects\Inventway\Inventway\bin\Debug\Inventway.exe
+E:\Mobility\Projects\Inventway\Inventway\bin\Debug\Inventway.pdb
+E:\Mobility\Projects\Inventway\Inventway\obj\Debug\ResolveAssemblyReference.cache
+E:\Mobility\Projects\Inventway\Inventway\obj\Debug\Inventway.Menu.resources
+E:\Mobility\Projects\Inventway\Inventway\obj\Debug\Inventway.Properties.Resources.resources
+E:\Mobility\Projects\Inventway\Inventway\obj\Debug\Inventway.csproj.GenerateResource.Cache
+E:\Mobility\Projects\Inventway\Inventway\obj\Debug\Inventway.exe
+E:\Mobility\Projects\Inventway\Inventway\obj\Debug\Inventway.pdb
+E:\Mobility\Projects\Inventway\Inventway\obj\Debug\Inventway.articles.resources
+E:\Mobility\Projects\Inventway\Inventway\obj\Debug\Inventway.Inventaire.resources
+E:\Mobility\Projects\Inventway\Inventway\obj\Debug\Inventway.Show.resources
+E:\Mobility\Projects\Inventway\Inventway\obj\Debug\Inventway.Setup.resources
+E:\Mobility\Projects\Inventway\Inventway\obj\Debug\Inventway.LoadInventory.resources
+E:\Mobility\Projects\Inventway\Inventway\bin\Debug\Symbol.Barcode.dll
+E:\Mobility\Projects\Inventway\Inventway\bin\Debug\Symbol.dll
+E:\Mobility\Projects\Inventway\Inventway\bin\Debug\Symbol.ResourceCoordination.dll
+E:\Mobility\Projects\Inventway\Inventway\bin\Debug\Symbol.StandardForms.dll
+E:\Mobility\Projects\Inventway\Inventway\bin\Debug\Symbol.xml
+E:\Mobility\Projects\Inventway\Inventway\bin\Debug\Symbol.StandardForms.xml
+E:\Mobility\Projects\Inventway\Inventway\bin\Debug\Symbol.ResourceCoordination.xml
+E:\Mobility\Projects\Inventway\Inventway\bin\Debug\Symbol.Barcode.xml
+E:\Mobility\Projects\Copie de Inventway\Inventway\bin\Debug\Inventway.exe
+E:\Mobility\Projects\Copie de Inventway\Inventway\bin\Debug\Inventway.pdb
+E:\Mobility\Projects\Copie de Inventway\Inventway\bin\Debug\Symbol.Barcode.dll
+E:\Mobility\Projects\Copie de Inventway\Inventway\bin\Debug\Symbol.dll
+E:\Mobility\Projects\Copie de Inventway\Inventway\bin\Debug\Symbol.ResourceCoordination.dll
+E:\Mobility\Projects\Copie de Inventway\Inventway\bin\Debug\Symbol.StandardForms.dll
+E:\Mobility\Projects\Copie de Inventway\Inventway\bin\Debug\Symbol.xml
+E:\Mobility\Projects\Copie de Inventway\Inventway\bin\Debug\Symbol.StandardForms.xml
+E:\Mobility\Projects\Copie de Inventway\Inventway\bin\Debug\Symbol.ResourceCoordination.xml
+E:\Mobility\Projects\Copie de Inventway\Inventway\bin\Debug\Symbol.Barcode.xml
+E:\Mobility\Projects\Copie de Inventway\Inventway\obj\Debug\ResolveAssemblyReference.cache
+E:\Mobility\Projects\Copie de Inventway\Inventway\obj\Debug\Inventway.Articles.resources
+E:\Mobility\Projects\Copie de Inventway\Inventway\obj\Debug\Inventway.LoadInventory.resources
+E:\Mobility\Projects\Copie de Inventway\Inventway\obj\Debug\Inventway.Menu.resources
+E:\Mobility\Projects\Copie de Inventway\Inventway\obj\Debug\Inventway.Inventaire.resources
+E:\Mobility\Projects\Copie de Inventway\Inventway\obj\Debug\Inventway.Properties.Resources.resources
+E:\Mobility\Projects\Copie de Inventway\Inventway\obj\Debug\Inventway.Setup.resources
+E:\Mobility\Projects\Copie de Inventway\Inventway\obj\Debug\Inventway.Show.resources
+E:\Mobility\Projects\Copie de Inventway\Inventway\obj\Debug\Inventway.csproj.GenerateResource.Cache
+E:\Mobility\Projects\Copie de Inventway\Inventway\obj\Debug\Inventway.exe
+E:\Mobility\Projects\Copie de Inventway\Inventway\obj\Debug\Inventway.pdb
+E:\projets\inventaire\Mobility\Projects\Copie de Inventway\Inventway\bin\Debug\Inventway.exe
+E:\projets\inventaire\Mobility\Projects\Copie de Inventway\Inventway\bin\Debug\Inventway.pdb
+E:\projets\inventaire\Mobility\Projects\Copie de Inventway\Inventway\bin\Debug\Symbol.xml
+E:\projets\inventaire\Mobility\Projects\Copie de Inventway\Inventway\bin\Debug\Symbol.StandardForms.xml
+E:\projets\inventaire\Mobility\Projects\Copie de Inventway\Inventway\bin\Debug\Symbol.ResourceCoordination.xml
+E:\projets\inventaire\Mobility\Projects\Copie de Inventway\Inventway\bin\Debug\Symbol.Barcode.xml
+E:\projets\inventaire\Mobility\Projects\Copie de Inventway\Inventway\obj\Debug\ResolveAssemblyReference.cache
+E:\projets\inventaire\Mobility\Projects\Copie de Inventway\Inventway\obj\Debug\Inventway.Articles.resources
+E:\projets\inventaire\Mobility\Projects\Copie de Inventway\Inventway\obj\Debug\Inventway.LoadInventory.resources
+E:\projets\inventaire\Mobility\Projects\Copie de Inventway\Inventway\obj\Debug\Inventway.Menu.resources
+E:\projets\inventaire\Mobility\Projects\Copie de Inventway\Inventway\obj\Debug\Inventway.Inventaire.resources
+E:\projets\inventaire\Mobility\Projects\Copie de Inventway\Inventway\obj\Debug\Inventway.Properties.Resources.resources
+E:\projets\inventaire\Mobility\Projects\Copie de Inventway\Inventway\obj\Debug\Inventway.Setup.resources
+E:\projets\inventaire\Mobility\Projects\Copie de Inventway\Inventway\obj\Debug\Inventway.Show.resources
+E:\projets\inventaire\Mobility\Projects\Copie de Inventway\Inventway\obj\Debug\Inventway.csproj.GenerateResource.Cache
+E:\projets\inventaire\Mobility\Projects\Copie de Inventway\Inventway\obj\Debug\Inventway.exe
+E:\projets\inventaire\Mobility\Projects\Copie de Inventway\Inventway\obj\Debug\Inventway.pdb
+E:\Projects\Inventaire\partie mobile\Inventway mc2000 - versiob beta\Inventway\bin\Debug\Inventway.exe
+E:\Projects\Inventaire\partie mobile\Inventway mc2000 - versiob beta\Inventway\bin\Debug\Inventway.pdb
+E:\Projects\Inventaire\partie mobile\Inventway mc2000 - versiob beta\Inventway\bin\Debug\Symbol.xml
+E:\Projects\Inventaire\partie mobile\Inventway mc2000 - versiob beta\Inventway\bin\Debug\Symbol.StandardForms.xml
+E:\Projects\Inventaire\partie mobile\Inventway mc2000 - versiob beta\Inventway\bin\Debug\Symbol.ResourceCoordination.xml
+E:\Projects\Inventaire\partie mobile\Inventway mc2000 - versiob beta\Inventway\bin\Debug\Symbol.Barcode.xml
+E:\Projects\Inventaire\partie mobile\Inventway mc2000 - versiob beta\Inventway\obj\Debug\ResolveAssemblyReference.cache
+E:\Projects\Inventaire\partie mobile\Inventway mc2000 - versiob beta\Inventway\obj\Debug\Inventway.Articles.resources
+E:\Projects\Inventaire\partie mobile\Inventway mc2000 - versiob beta\Inventway\obj\Debug\Inventway.LoadInventory.resources
+E:\Projects\Inventaire\partie mobile\Inventway mc2000 - versiob beta\Inventway\obj\Debug\Inventway.Menu.resources
+E:\Projects\Inventaire\partie mobile\Inventway mc2000 - versiob beta\Inventway\obj\Debug\Inventway.Inventaire.resources
+E:\Projects\Inventaire\partie mobile\Inventway mc2000 - versiob beta\Inventway\obj\Debug\Inventway.Properties.Resources.resources
+E:\Projects\Inventaire\partie mobile\Inventway mc2000 - versiob beta\Inventway\obj\Debug\Inventway.Setup.resources
+E:\Projects\Inventaire\partie mobile\Inventway mc2000 - versiob beta\Inventway\obj\Debug\Inventway.Show.resources
+E:\Projects\Inventaire\partie mobile\Inventway mc2000 - versiob beta\Inventway\obj\Debug\Inventway.csproj.GenerateResource.Cache
+E:\Projects\Inventaire\partie mobile\Inventway mc2000 - versiob beta\Inventway\obj\Debug\Inventway.exe
+E:\Projects\Inventaire\partie mobile\Inventway mc2000 - versiob beta\Inventway\obj\Debug\Inventway.pdb
+D:\Projets\Inventway mc2000 - versiob beta\Inventway\bin\Debug\Inventway.exe
+D:\Projets\Inventway mc2000 - versiob beta\Inventway\bin\Debug\Inventway.pdb
+D:\Projets\Inventway mc2000 - versiob beta\Inventway\bin\Debug\Symbol.xml
+D:\Projets\Inventway mc2000 - versiob beta\Inventway\bin\Debug\Symbol.StandardForms.xml
+D:\Projets\Inventway mc2000 - versiob beta\Inventway\bin\Debug\Symbol.ResourceCoordination.xml
+D:\Projets\Inventway mc2000 - versiob beta\Inventway\bin\Debug\Symbol.Barcode.xml
+D:\Projets\Inventway mc2000 - versiob beta\Inventway\obj\Debug\ResolveAssemblyReference.cache
+D:\Projets\Inventway mc2000 - versiob beta\Inventway\obj\Debug\Inventway.Articles.resources
+D:\Projets\Inventway mc2000 - versiob beta\Inventway\obj\Debug\Inventway.LoadInventory.resources
+D:\Projets\Inventway mc2000 - versiob beta\Inventway\obj\Debug\Inventway.Menu.resources
+D:\Projets\Inventway mc2000 - versiob beta\Inventway\obj\Debug\Inventway.Inventaire.resources
+D:\Projets\Inventway mc2000 - versiob beta\Inventway\obj\Debug\Inventway.Properties.Resources.resources
+D:\Projets\Inventway mc2000 - versiob beta\Inventway\obj\Debug\Inventway.Setup.resources
+D:\Projets\Inventway mc2000 - versiob beta\Inventway\obj\Debug\Inventway.Show.resources
+D:\Projets\Inventway mc2000 - versiob beta\Inventway\obj\Debug\Inventway.csproj.GenerateResource.Cache
+D:\Projets\Inventway mc2000 - versiob beta\Inventway\obj\Debug\Inventway.exe
+D:\Projets\Inventway mc2000 - versiob beta\Inventway\obj\Debug\Inventway.pdb
