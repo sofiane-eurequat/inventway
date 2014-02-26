@@ -18,14 +18,26 @@ namespace Inventway
             get { return m_inventoryDatas; }
             set { m_inventoryDatas = value; }
         }
+        private List<InventoryData> m_inventaireRejete;
+
+        public List<InventoryData> inventaireRejete 
+        {
+            get { return m_inventaireRejete; }
+            set { m_inventaireRejete = value; }
+        }
+        
+
         public Show()
         {
             InitializeComponent();
         }
 
-        public void setGrid() 
+        public void setGrid()
         {
-            inventoryGrid.DataSource = m_inventoryDatas;
+            var liste = new List<InventoryData>();
+            liste.AddRange(inventaireRejete); 
+            liste.AddRange(m_inventoryDatas);
+            inventoryGrid.DataSource = liste;
         }
 
         private void invontoryGrid_CurrentCellChanged(object sender, EventArgs e)

@@ -34,11 +34,13 @@
             this.label1 = new System.Windows.Forms.Label();
             this.pBLogin = new System.Windows.Forms.PictureBox();
             this.pBHome = new System.Windows.Forms.PictureBox();
+            this.openFileDialog1 = new System.Windows.Forms.OpenFileDialog();
+            this.CBBase = new System.Windows.Forms.ComboBox();
             this.SuspendLayout();
             // 
             // inventoySelectBox
             // 
-            this.inventoySelectBox.Location = new System.Drawing.Point(20, 68);
+            this.inventoySelectBox.Location = new System.Drawing.Point(20, 34);
             this.inventoySelectBox.Name = "inventoySelectBox";
             this.inventoySelectBox.Size = new System.Drawing.Size(214, 23);
             this.inventoySelectBox.TabIndex = 0;
@@ -78,6 +80,17 @@
             this.pBHome.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pBHome.Click += new System.EventHandler(this.pBHome_Click_1);
             // 
+            // openFileDialog1
+            // 
+            this.openFileDialog1.FileName = "openFileDialog1";
+            // 
+            // CBBase
+            // 
+            this.CBBase.Location = new System.Drawing.Point(20, 92);
+            this.CBBase.Name = "CBBase";
+            this.CBBase.Size = new System.Drawing.Size(214, 23);
+            this.CBBase.TabIndex = 4;
+            // 
             // LoadInventory
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(96F, 96F);
@@ -85,6 +98,7 @@
             this.AutoScroll = true;
             this.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.ClientSize = new System.Drawing.Size(246, 272);
+            this.Controls.Add(this.CBBase);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.pBLogin);
@@ -104,5 +118,7 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.PictureBox pBLogin;
         private System.Windows.Forms.PictureBox pBHome;
+        private System.Windows.Forms.OpenFileDialog openFileDialog1;
+        private System.Windows.Forms.ComboBox CBBase;
     }
 }

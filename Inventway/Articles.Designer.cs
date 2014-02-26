@@ -131,6 +131,7 @@
             this.Name = "Articles";
             this.Text = "articles";
             this.Load += new System.EventHandler(this.articles_Load);
+            this.Closing += new System.ComponentModel.CancelEventHandler(this.Articles_Closing);
             this.ResumeLayout(false);
 
         }

@@ -2,7 +2,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProductVersion>9.0.21022</ProductVersion>
+    <ProductVersion>9.0.30729</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>{F8F0226A-29F3-4C22-AD3B-C84CC1B06B10}</ProjectGuid>
     <OutputType>WinExe</OutputType>
@@ -45,6 +45,10 @@
     <GenerateSerializationAssemblies>Off</GenerateSerializationAssemblies>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="FileHelpersPPC, Version=2.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Users\sofiane\Desktop\FileHelpers\Binaries\DotNet 2.0 PPC\FileHelpersPPC.dll</HintPath>
+    </Reference>
     <Reference Include="mscorlib" />
     <Reference Include="Symbol, Version=1.6.1.4, Culture=neutral, PublicKeyToken=68ec8db391f150ca" />
     <Reference Include="Symbol.Barcode, Version=1.6.1.18, Culture=neutral, PublicKeyToken=68ec8db391f150ca" />
@@ -61,12 +65,19 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="API.cs" />
+    <Compile Include="ArticleDetail.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ArticleDetail.Designer.cs">
+      <DependentUpon>ArticleDetail.cs</DependentUpon>
+    </Compile>
     <Compile Include="Articles.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Articles.Designer.cs">
       <DependentUpon>Articles.cs</DependentUpon>
     </Compile>
+    <Compile Include="DBInventory.cs" />
     <Compile Include="LoadInventory.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -88,6 +99,9 @@
     <Compile Include="InventoryData.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="ArticleDetail.resx">
+      <DependentUpon>ArticleDetail.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Articles.resx">
       <DependentUpon>Articles.cs</DependentUpon>
       <SubType>Designer</SubType>
@@ -109,6 +123,9 @@
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
       <SubType>Designer</SubType>
     </EmbeddedResource>
+    <EmbeddedResource Include="RemarquSuppelementaire.resx">
+      <DependentUpon>RemarquSuppelementaire.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Setup.resx">
       <DependentUpon>Setup.cs</DependentUpon>
       <SubType>Designer</SubType>
@@ -117,9 +134,18 @@
       <DependentUpon>Show.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
+    <EmbeddedResource Include="Statut.resx">
+      <DependentUpon>Statut.cs</DependentUpon>
+    </EmbeddedResource>
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="RemarquSuppelementaire.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RemarquSuppelementaire.Designer.cs">
+      <DependentUpon>RemarquSuppelementaire.cs</DependentUpon>
     </Compile>
     <Compile Include="Setup.cs">
       <SubType>Form</SubType>
@@ -133,9 +159,18 @@
     <Compile Include="Show.Designer.cs">
       <DependentUpon>Show.cs</DependentUpon>
     </Compile>
+    <Compile Include="Statut.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Statut.Designer.cs">
+      <DependentUpon>Statut.cs</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <None Include="ClassDiagram1.cd" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="FileHelpersPPC.xml" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CompactFramework.CSharp.targets" />
   <ProjectExtensions>

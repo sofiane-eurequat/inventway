@@ -91,3 +91,21 @@ D:\Projets\Inventway mc2000 - versiob beta\Inventway\obj\Debug\Inventway.Show.re
 D:\Projets\Inventway mc2000 - versiob beta\Inventway\obj\Debug\Inventway.csproj.GenerateResource.Cache
 D:\Projets\Inventway mc2000 - versiob beta\Inventway\obj\Debug\Inventway.exe
 D:\Projets\Inventway mc2000 - versiob beta\Inventway\obj\Debug\Inventway.pdb
+D:\Projets\inventway\Inventway\bin\Debug\Inventway.exe
+D:\Projets\inventway\Inventway\bin\Debug\Inventway.pdb
+D:\Projets\inventway\Inventway\obj\Debug\ResolveAssemblyReference.cache
+D:\Projets\inventway\Inventway\obj\Debug\Inventway.Articles.resources
+D:\Projets\inventway\Inventway\obj\Debug\Inventway.LoadInventory.resources
+D:\Projets\inventway\Inventway\obj\Debug\Inventway.Menu.resources
+D:\Projets\inventway\Inventway\obj\Debug\Inventway.Inventaire.resources
+D:\Projets\inventway\Inventway\obj\Debug\Inventway.Properties.Resources.resources
+D:\Projets\inventway\Inventway\obj\Debug\Inventway.Setup.resources
+D:\Projets\inventway\Inventway\obj\Debug\Inventway.Show.resources
+D:\Projets\inventway\Inventway\obj\Debug\Inventway.csproj.GenerateResource.Cache
+D:\Projets\inventway\Inventway\obj\Debug\Inventway.exe
+D:\Projets\inventway\Inventway\obj\Debug\Inventway.pdb
+D:\Projets\inventway\Inventway\bin\Debug\FileHelpersPPC.dll
+D:\Projets\inventway\Inventway\bin\Debug\FileHelpersPPC.xml
+D:\Projets\inventway\Inventway\obj\Debug\Inventway.ArticleDetail.resources
+D:\Projets\inventway\Inventway\obj\Debug\Inventway.RemarquSuppelementaire.resources
+D:\Projets\inventway\Inventway\obj\Debug\Inventway.Statut.resources

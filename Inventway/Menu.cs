@@ -13,10 +13,12 @@ namespace Inventway
     public partial class Menu : Form
     {
         private List<InventoryData> inventoryDatas = new List<InventoryData>();
+        private List<InventoryData> inventoryDatasRejete = new List<InventoryData>();
         private String m_analytique ="";
         private String m_structure ="";
         private String m_user = "";
         private String m_FileName ="";
+        private String m_FileName_letige = "";
         private bool saved = false;
 
         private Inventaire inventaire;
@@ -31,6 +33,11 @@ namespace Inventway
         {
             get { return m_FileName; }
             set { m_FileName = value; }
+        }
+        public String FileName_letige
+        {
+            get { return m_FileName_letige; }
+            set { m_FileName_letige = value; }
         }
         public String Analytique
         {
@@ -62,7 +69,11 @@ namespace Inventway
                 inventaire = new Inventaire();
                 // inventaire.inventoryDatas = inventoryDatas;
             }
+
+
             inventaire.inventoryDatas = inventoryDatas;
+            inventaire.inventoryDatasRejete = inventoryDatasRejete;
+
 
             if (setupForm != null)
             {
@@ -130,7 +141,9 @@ namespace Inventway
             loadInventory.User = User;
 
             loadInventory.inventoryDatas = inventoryDatas;
+            loadInventory.inventoryDatasletige = inventoryDatasRejete;
             loadInventory.FileName = FileName;
+            loadInventory.FileName_letige = FileName_letige;
             loadInventory.Show();
         }
 
@@ -144,7 +157,8 @@ namespace Inventway
             saved = true;
             DateTime today = DateTime.Today;
             FileName = loadInventory.FileName;
-            String file = "INVSTR" + today.ToString("dd-MM-yyyy  HH.mm.ss") + ".csv";
+            FileName_letige = loadInventory.FileName_letige;
+            String file = today.ToString("dd-MM-yyyy-HH-mm-ss") + ".csv";
             if (!Directory.Exists("My Documents\\inventway"))
             {
                 Directory.CreateDirectory(@"My Documents\inventway");
@@ -155,12 +169,31 @@ namespace Inventway
                 File.Create(FileName).Close();
             }
 
+            if (!File.Exists(FileName_letige))
+            {
+                File.Create(FileName_letige).Close();
+            }
+
+
             StreamWriter strmWriter = new StreamWriter(new FileStream(FileName, FileMode.Truncate));
             foreach (InventoryData inventoryData in inventoryDatas)
             {
-                strmWriter.Write(inventoryData.toString());
+                var info = inventoryData.toString();
+                strmWriter.Write(info);
             }
             strmWriter.Close();
+
+
+            StreamWriter strmWriterLetige = new StreamWriter(new FileStream(FileName_letige, FileMode.Truncate));
+            foreach (InventoryData inventoryData in inventoryDatasRejete)
+            {
+                var info = inventoryData.toString();
+                strmWriterLetige.Write(info);
+            }
+            strmWriterLetige.Close();
+
+
+
             MessageBox.Show("Inventaire sauvegardé !");
         }
 
@@ -178,6 +211,7 @@ namespace Inventway
         {
             showInventaire = new Show();
             showInventaire.inventoryDatas = inventoryDatas;
+            showInventaire.inventaireRejete = inventoryDatasRejete;
             showInventaire.setGrid();
             showInventaire.Show();
         }

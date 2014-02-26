@@ -12,7 +12,9 @@ namespace Inventway
     public partial class Articles : Form
     {
         private List<InventoryData> m_inventoryDatas = new List<InventoryData>();
+        private List<InventoryData> m_inventoryDatasRjete = new List<InventoryData>();
         private InventoryData m_inventoryData;
+        private string remarque = "";
         private String m_location;
         private String m_analytique = "";
         private String m_structure = "";
@@ -28,7 +30,11 @@ namespace Inventway
             get{return m_inventoryDatas ;}
             set{m_inventoryDatas = value;}
         }
-
+        public List<InventoryData> inventoryDatasRejete
+        {
+            get { return m_inventoryDatasRjete; }
+            set { m_inventoryDatasRjete = value; }
+        }
         public String Analytique
         {
             get { return m_structure; }
@@ -78,12 +84,12 @@ namespace Inventway
             this.articleBox.Focus();
         }
 
-        private void next_Click(object sender, EventArgs e)
+       /* private void next_Click(object sender, EventArgs e)
         {
             appendInventoryData();
             initAll();
             this.articleBox.Focus();    
-        }
+        }*/
         private bool articleAlreadyExist(InventoryData inventoryData) {
             return ((this.scannedData.Text == inventoryData.barcode) || (this.articleBox.Text ==inventoryData.barcode ) );
         }
@@ -92,7 +98,7 @@ namespace Inventway
             return ((this.scannedData.Text == "") && (this.articleBox.Text == ""));
         }
 
-        private void appendInventoryData()
+        private void appendInventoryData(bool rejete)
         {
             inventoryData = new InventoryData();
  
@@ -123,7 +129,9 @@ namespace Inventway
                     //inventoryData.analytique = Analytique;
                     inventoryData.structure = Structure;
                     inventoryData.agent = User;
-                    inventoryDatas.Add(inventoryData);
+                    inventoryData.Remarque = remarque;
+                    if (rejete) inventoryDatasRejete.Add(inventoryData);
+                    else inventoryDatas.Add(inventoryData);
                 }
         }
 
@@ -210,9 +218,41 @@ namespace Inventway
 
         private void pBLogin_Click(object sender, EventArgs e)
         {
-            appendInventoryData();
+
+            string id = "";
+            this.Hide();
+
+            if (scannedData.Text!=null && scannedData.Text != "") id = scannedData.Text;
+            else
+            {
+                if (articleBox.Text!=null && articleBox.Text != "") id = articleBox.Text;
+            }
+
+            var articleDetail = new ArticleDetail(id);
+            
+
+            articleDetail.ShowDialog();
+
+
+            var status = new Statut();
+            status.ShowDialog();
+            var rejete = status.rejete;
+
+            var articleRemarque = new RemarquSuppelementaire();
+            articleRemarque.ShowDialog();
+            remarque = articleRemarque.getRemarque();
+            
+
+            appendInventoryData(rejete);
+
+            this.Show();
             initAll();
-            this.articleBox.Focus();    
+            this.articleBox.Focus(); 
+        }
+
+        private void Articles_Closing(object sender, CancelEventArgs e)
+        {
+
         }
     }
 }

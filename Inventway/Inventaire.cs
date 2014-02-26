@@ -13,6 +13,7 @@ namespace Inventway
     {
         private Articles articles;
         private List<InventoryData> m_inventoryDatas;
+        private List<InventoryData> m_inventoryDatasRejete;
         private InventoryData m_inventoryData;
         private String m_analytique = "";
         private String m_structure = "";
@@ -25,6 +26,11 @@ namespace Inventway
         {
             get { return m_inventoryDatas; }
             set { m_inventoryDatas = value; }
+        }
+        public List<InventoryData> inventoryDatasRejete
+        {
+            get { return m_inventoryDatasRejete; }
+            set { m_inventoryDatasRejete = value; }
         }
         public String Analytique
         {
@@ -52,43 +58,13 @@ namespace Inventway
 
         }
 
-        private void back_Click(object sender, EventArgs e)
-        {
-            locationBox.Focus();
-            this.Hide();
-        }
-
-        private void suivant_Click(object sender, EventArgs e)
-        {
-        //    if (articles == null)
-        //    { 
-                articles = new Articles();               
-                articles.inventoryDatas = inventoryDatas;
-       //     }
-            articles.Analytique = Analytique;
-            articles.Structure = Structure;
-            articles.User = User;
-            locationBox.Focus();
-            articles.location = locationBox.Text;
-            articles.Show();
-        }
-
-        private void pBLogin_Click_1(object sender, EventArgs e)
-        {
-
-        }
-
-        private void pBHome_Click_1(object sender, EventArgs e)
-        {
-
-        }
-
         private void pBLogin_Click(object sender, EventArgs e)
         {
             //    if (articles == null)
             //    { 
             articles = new Articles();
             articles.inventoryDatas = inventoryDatas;
+            articles.inventoryDatasRejete = inventoryDatasRejete;
             //     }
             articles.Analytique = Analytique;
             articles.Structure = Structure;

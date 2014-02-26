@@ -16,7 +16,7 @@ namespace Inventway
         private String m_location = "";
         private String m_type_read = "";
         private DateTime m_date = new DateTime();
-
+        private string m_remarque = "";
 
        /* public String analytique
         {
@@ -29,6 +29,13 @@ namespace Inventway
             get { return m_structure; }
             set { m_structure = value; }
         }
+
+        public String Remarque
+        {
+            get { return m_remarque; }
+            set { m_remarque = value; }
+        }
+
 
         public String location
         {
@@ -69,7 +76,7 @@ namespace Inventway
             string format ="dd/MM/yyyy,HH:mm:ss";
             StringBuilder builder = new StringBuilder();
             builder.Append(m_structure).Append(";")
-                .Append(m_location).Append(";").Append(m_barcode).Append(";").Append(m_state).Append(";").Append(m_agent).Append("\n");
+                .Append(m_location).Append(";").Append(m_barcode).Append(";").Append(m_state).Append(";").Append(m_agent).Append(";").Append(m_remarque).Append("\n");
             return builder.ToString();
         }
         
